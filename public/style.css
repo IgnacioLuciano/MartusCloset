@@ -1,0 +1,50 @@
+body {
+    background: url("./images/backgroundMartus.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 1400px;
+}
+
+.bienvenida{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
+
+}
+
+.startmenu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+    top: 25px;
+    width: 500px; 
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+p:hover, a:hover {
+    background-color: rgb(226, 25, 199);
+}
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
