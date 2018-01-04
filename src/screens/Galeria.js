@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+
 class Galeria extends React.Component {
     constructor(props) {
         super(props)
@@ -8,8 +9,15 @@ class Galeria extends React.Component {
         return (
             <div>
                 <Header title="Galeria" />
-                <h1>Las Fotos</h1>
-            </div>
+                <div className="fotos">
+                    <h1>Las Fotos</h1>
+                    <img src={require('hair1.jpg')} />
+                    <button>It works!</button>
+                   
+                   
+
+                </div>
+            </div >
         )
     }
 }
